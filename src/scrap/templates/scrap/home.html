@@ -16,13 +16,20 @@
         <a href="{{obj.url}}" class="btn btn-primary">Go to the site</a>
     </div>
 </div>
+{% empty %}
+    <div class="row">
+        <div class="col-md mx-auto">
+            <h3 align="center">По вашему запросу нет результатов</h3>
+        </div>
+    </div>
 {% endfor %}
 
-<form action="" class="form-group">
-    <label>Город</label>
-    <input type="text" name="city" class="form-control-sm"><br>
-    <label>Язык программирования</label>
-    <input type="text" name="language" class="form-control-sm"><br>
-    <input type="submit" value="Submit" class="form-control-sm">
-</form>
+<div class="row">
+    <div class="col-md-6 mx-auto">
+    <form action="" class="form-group">
+        {{form.as_p}}
+        <button type="submit" value="Найти" class="btn btn-primary">Найти</button>
+    </form>
+    </div>
+</div>
 {% endblock %}
