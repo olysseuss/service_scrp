@@ -9,7 +9,7 @@ import django
 django.setup()
 
 from scrap.parsers import *
-from scrap.models import Vacancy, City, Language
+from scrap.models import Vacancy, City, Language, Error
 from django.db import DatabaseError
 
 parsers = (
@@ -35,6 +35,10 @@ for job in jobs:
         vac.save()
     except DatabaseError:
         pass
+
+if errors:
+    err = Error(data=errors).save()
+
 
 # with open('work.txt', 'w', encoding='utf-8') as f_work:
 #     f_work.write(str(jobs))
