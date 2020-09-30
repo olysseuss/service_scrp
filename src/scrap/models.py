@@ -4,6 +4,10 @@ from django.db import models
 from scrap.utils import from_cyrillic_to_eng
 
 
+def default_urls():
+    return {'work': '', 'rabota': '', 'dou': '', 'djinni': ''}
+
+
 class City(models.Model):
     name = models.CharField(max_length=80, verbose_name='Название города', unique=True)
     slug = models.CharField(max_length=50, blank=True, verbose_name='Слаг', unique=True)
@@ -55,9 +59,19 @@ class Vacancy(models.Model):
     def __str__(self):
         return '{0} , {1}'.format(self.title, self.company)
 
+
 class Error(models.Model):
     timestamp = models.DateTimeField(auto_now_add=True)
     data = jsonfield.JSONField()
 
     def __str__(self):
         return self.timestamp
+
+
+class Url(models.Model):
+    id_city = models.ForeignKey('City', on_delete=models.CASCADE, verbose_name='Город')
+    id_language = models.ForeignKey('Language', on_delete=models.CASCADE, verbose_name='Язык')
+    url_data = jsonfield.JSONField(default=default_urls)
+
+    class Meta:
+        unique_together = ('id_city', 'id_language')  # unique key : id_city+id_language
