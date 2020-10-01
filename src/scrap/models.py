@@ -55,6 +55,7 @@ class Vacancy(models.Model):
     class Meta:
         verbose_name = 'Вакансия'
         verbose_name_plural = 'Вакансии'
+        ordering = ['-timestamp'] # where '-' is DESC
 
     def __str__(self):
         return '{0} , {1}'.format(self.title, self.company)
