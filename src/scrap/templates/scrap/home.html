@@ -13,7 +13,7 @@
 
 
         <div class="mx-auto" style="width: 300px;">
-            <form action="{% url 'list' %}" >
+            <form method="GET" action="{% url 'list' %}" >
                 {{form.as_p}}
                 <button type="submit" value="Найти" class="btn btn-primary">Найти</button>
             </form>
