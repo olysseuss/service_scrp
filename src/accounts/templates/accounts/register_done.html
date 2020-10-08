@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+{% block title %}Регистрация{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row text-center">
+        <div class="col my-2"><h2>Добро пожаловать, {{ new_user.email }}</h2></div>
+        <p><a href="{% url 'accounts:login' %}">Теперь вы можете войти в систему</a></p>
+    </div>
+
+</div>
+{% endblock %}
