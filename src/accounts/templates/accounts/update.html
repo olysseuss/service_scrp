@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+
+{% block title %}Настройки{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row text-center">
+        <div class="col my-2"><h2>Настройки</h2></div>
+    </div>
+    <div class="mx-auto" style="width: 300px;">
+        <form method="POST" action="" >{% csrf_token %}
+            {{form.as_p}}
+            <button type="submit" value="Войти" class="btn btn-primary">Сохранить</button>
+        </form>
+        <form method="POST" action="{% url 'accounts:delete' %}" >{% csrf_token %}
+            <button type="submit" value="Войти" class="btn btn-danger my-3">Удалить аккаунт</button>
+        </form>
+    </div>
+
+</div>
+{% endblock %}
