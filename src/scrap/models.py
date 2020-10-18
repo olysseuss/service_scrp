@@ -62,11 +62,11 @@ class Vacancy(models.Model):
 
 
 class Error(models.Model):
-    timestamp = models.DateTimeField(auto_now_add=True)
+    timestamp = models.DateField(auto_now_add=True)
     data = jsonfield.JSONField()
 
     def __str__(self):
-        return self.timestamp
+        return str(self.timestamp)
 
 
 class Url(models.Model):
