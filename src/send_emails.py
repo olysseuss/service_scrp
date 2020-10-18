@@ -9,7 +9,7 @@ os.environ["DJANGO_SETTINGS_MODULE"] = "scraping_service.settings"
 django.setup()
 
 from django.contrib.auth import get_user_model
-from scrap.models import Vacancy, Error
+from scrap.models import Vacancy, Error, Url
 from django.core.mail import EmailMultiAlternatives
 from scraping_service.settings import EMAIL_HOST_USER
 
@@ -21,6 +21,7 @@ ADMIN_USER = EMAIL_HOST_USER
 
 # send emails with vacancies
 User = get_user_model()
+# selection of all active users, where the key is city and language
 qs = User.objects.filter(send_email=True).values('city', 'language', 'email')
 users_dict = {}
 for i in qs:
@@ -52,18 +53,35 @@ if users_dict:
             msg.send()
 
 # send emails with errors
+subject_err = ''
+text_content_err = ''
+to = ADMIN_USER
+_html_err = ''
+
 qs = Error.objects.filter(timestamp=today)
 if qs.exists():
     error = qs.first()  # one entry for one date
     data = error.data
-    _html_err = ''
     for i in data:
         _html_err += f' <p><a href="{i["url"]}">Error: {i["title"]} </a></p>'
 
     subject_err = f'Ошибки скрапинга на {today}'
     text_content_err = 'Ошибки скрапинга'
     to = ADMIN_USER
+
+# send emails with missing urls
+# selection of all active urls, where the key is city and language
+qs = Url.objects.all().values('id_city', 'id_language')
+urls_dict = {(i['id_city'], i['id_language']): True for i in qs}
+missing_urls = ''
+for keys in users_dict:
+    if keys not in urls_dict:
+        missing_urls += f' <p>Для {keys[0]} и {keys[1]} отсутствуют ссылки на целевые сайты.</p>'
+if missing_urls:
+    subject_err += "Отсутствие ссылок"
+    text_content_err += "Отсутствие ссылок"
+    _html_err += missing_urls
+if subject_err:
     msg = EmailMultiAlternatives(subject_err, text_content_err, from_email, [to])
     msg.attach_alternative(_html_err, "text/html")
     msg.send()
-
