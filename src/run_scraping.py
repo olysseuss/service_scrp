@@ -1,5 +1,5 @@
 import asyncio
-import os, sys
+import os, sys, datetime
 
 proj = os.path.dirname(os.path.abspath('manage.py'))
 sys.path.append(proj)
@@ -28,12 +28,13 @@ def get_urls(_settings):
     url_dct = {(q['id_city_id'], q['id_language_id']): q['url_data'] for q in qs}
     urls = []
     for pair in _settings:
-        tmp = {}
-        tmp['city'] = pair[0]
-        tmp['language'] = pair[1]
-        tmp['url_data'] = url_dct[pair]
-        urls.append(tmp)
-        return urls
+        if pair in url_dct:
+            tmp = {}
+            tmp['city'] = pair[0]
+            tmp['language'] = pair[1]
+            tmp['url_data'] = url_dct[pair]
+            urls.append(tmp)
+    return urls
 
 
 jobs, errors = [], []
@@ -86,7 +87,13 @@ for job in jobs:
         pass
 
 if errors:
-    err = Error(data=errors).save()
+    qs = Error.objects.filter(timestamp=datetime.date.today())
+    if qs.exists():
+        err = qs.first()
+        err.data.update({'errors': errors})
+        err.save()
+    else:
+        err = Error(data=f'errors: {errors}').save()
 
 # with open('work.txt', 'w', encoding='utf-8') as f_work:
 #     f_work.write(str(jobs))

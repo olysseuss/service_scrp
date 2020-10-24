@@ -1,3 +1,4 @@
+import json
 import os, sys
 import django
 import datetime
@@ -61,13 +62,22 @@ _html_err = ''
 qs = Error.objects.filter(timestamp=today)
 if qs.exists():
     error = qs.first()  # one entry for one date
-    data = error.data
-    for i in data:
-        _html_err += f' <p><a href="{i["url"]}">Error: {i["title"]} </a></p>'
-
-    subject_err = f'Ошибки скрапинга на {today}'
-    text_content_err = 'Ошибки скрапинга'
-    to = ADMIN_USER
+    # formation of a letter with errors
+    data = error.data.get('errors', [])  # get values for key 'errors' in json-string
+    # data = json.loads(j_data)  # convert json-string to list
+    if data:
+        for i in data:
+            _html_err += f' <p><a href="{i["url"]}">Error: {i["title"]} </a></p>'
+        subject_err = f'Ошибки скрапинга на {today}'
+        text_content_err = 'Ошибки скрапинга'
+    # formation of a letter with a user's wish
+    data = error.data.get('user_data')
+    if data:
+        _html_err += '<hr>'
+        for i in data:
+            _html_err += f' <p>Город: {i["city"]}. Специальность: {i["language"]}. Email: {i["email"]}.</p>'
+        subject_err = f'Пожелание пользователя {today}'
+        text_content_err = 'Пожелание пользователя'
 
 # send emails with missing urls
 # selection of all active urls, where the key is city and language
@@ -76,7 +86,8 @@ urls_dict = {(i['id_city'], i['id_language']): True for i in qs}
 missing_urls = ''
 for keys in users_dict:
     if keys not in urls_dict:
-        missing_urls += f' <p>Для {keys[0]} и {keys[1]} отсутствуют ссылки на целевые сайты.</p>'
+        if keys[0] and keys[1]:
+            missing_urls += f' <p>Для {keys[0]} и {keys[1]} отсутствуют ссылки на целевые сайты.</p>'
 if missing_urls:
     subject_err += "Отсутствие ссылок"
     text_content_err += "Отсутствие ссылок"
