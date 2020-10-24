@@ -5,26 +5,26 @@
 
 {% block content %}
 <div class="col-md-9" style="background-color: #eee">
-{% for obj in object_list%}
-    <div class="card my-2">
-        <div class="card-header">
-            <a href="{{obj.url}}">{{obj.id_language.name}} - {{obj.title}}, {{obj.company}} ({{obj.id_city.name}})</a>
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">{{obj.title}}</h5>
-            <p class="card-text">{{obj.description}}</p>
-            <p>{{obj.timestamp|date:"d.m.Y"}}</p>
-            <a href="{{obj.url}}" class="btn btn-primary">Go to the site</a>
-        </div>
-    </div>
-    {% empty %}
+
+{% if object_list %}
     <div class="row">
         <div class="col-md mx-auto">
-            <h3 align="center">По вашему запросу нет результатов</h3>
+            <h3 align="center">Результаты запроса</h3>
         </div>
     </div>
-{% endfor %}
-{% if object_list %}
+    {% for obj in object_list%}
+        <div class="card my-2">
+            <div class="card-header">
+                <a href="{{obj.url}}">{{obj.id_language.name}} - {{obj.title}}, {{obj.company}} ({{obj.id_city.name}})</a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">{{obj.title}}</h5>
+                <p class="card-text">{{obj.description}}</p>
+                <p>{{obj.timestamp|date:"d.m.Y"}}</p>
+                <a href="{{obj.url}}" class="btn btn-primary">Go to the site</a>
+            </div>
+        </div>
+    {% endfor %}
     <div class="row">
         <div class="col">
             <nav aria-label="Page navigation example">
@@ -70,6 +70,12 @@
 <!--                    {% endif %}-->
 <!--                </span>-->
 <!--            </div>-->
+        </div>
+    </div>
+{% else %}
+    <div class="row">
+        <div class="col-md mx-auto">
+            <h3 align="center">По вашему запросу нет результатов</h3>
         </div>
     </div>
 {% endif %}

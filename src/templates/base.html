@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="{% static 'favicon.ico' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -13,15 +14,13 @@
   </head>
   <body>
     <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-      <a class="navbar-brand" href="{% url 'home' %}">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #007bff;" >
+      <a class="navbar-brand" href="{% url 'home' %}" id="brand">SRC</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-link" href="#">Features</a>
           {% if user.is_authenticated %}
           <a class="nav-link" href="{% url 'accounts:logout' %}">Выйти</a>
           <a class="nav-link" href="{% url 'accounts:update' %}">Настройки</a>
@@ -29,7 +28,6 @@
           <a class="nav-link" href="{% url 'accounts:login' %}">Войти</a>
           <a class="nav-link" href="{% url 'accounts:register' %}">Регистрация</a>
           {% endif %}
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </div>
       </div>
     </nav>

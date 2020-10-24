@@ -1,0 +1,8 @@
+@font-face {
+    font-family Alice;
+    src: url(../fonts/Alice-Regular.ttf)
+}
+#brand {
+    font-family Alice;
+    color: #fff
+}
