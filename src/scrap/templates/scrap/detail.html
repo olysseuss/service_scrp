@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+
+{% block title %}List of vacancies{% endblock %}
+
+{% block content %}
+    <div class="card my-2">
+        <div class="card-header">
+            <a href="{{object.url}}">{{object.id_language.name}} - {{object.title}}, {{object.company}} ({{object.id_city.name}})</a>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{object.title}}</h5>
+            <p class="card-text">{{object.description}}</p>
+            <p>{{object.timestamp|date:"d.m.Y"}}</p>
+            <a href="{{object.url}}" class="btn btn-primary">Go to the site</a>
+        </div>
+    </div>
+{% endblock %}

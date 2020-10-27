@@ -1,5 +1,5 @@
 from django.core.paginator import Paginator
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 
 from .forms import FindForm
 from .models import Vacancy
@@ -27,3 +27,8 @@ def list_view(request):
         page_obj = paginator.get_page(page_number)
         context['object_list'] = page_obj
     return render(request, 'scrap/list.html', context)
+
+def detail_view(request, pk=None):
+    # object_ = Vacancy.objects.get(pk=pk)
+    object_ = get_object_or_404(Vacancy, pk=pk)
+    return render(request, 'scrap/detail.html', {'object': object_})

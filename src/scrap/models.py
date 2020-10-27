@@ -76,3 +76,6 @@ class Url(models.Model):
 
     class Meta:
         unique_together = ('id_city', 'id_language')  # unique key : id_city+id_language
+
+    def __str__(self):
+        return '{0} - {1}'.format(self.id_city, self.id_language)
