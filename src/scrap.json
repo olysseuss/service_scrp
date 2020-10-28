@@ -1,0 +1,918 @@
+[
+{
+  "model": "scrap.city",
+  "pk": 1,
+  "fields": {
+    "name": "\u041a\u0438\u0435\u0432",
+    "slug": "kiev"
+  }
+},
+{
+  "model": "scrap.city",
+  "pk": 2,
+  "fields": {
+    "name": "\u0417\u0430\u043f\u043e\u0440\u043e\u0436\u044c\u0435",
+    "slug": "zaporizhzhya"
+  }
+},
+{
+  "model": "scrap.city",
+  "pk": 3,
+  "fields": {
+    "name": "\u0414\u043d\u0435\u043f\u0440",
+    "slug": "dnepr"
+  }
+},
+{
+  "model": "scrap.language",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scrap.language",
+  "pk": 2,
+  "fields": {
+    "name": "Java",
+    "slug": "java"
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 24,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3717203/",
+    "title": "\nJunior Python developer\n",
+    "company": "WeMyIT",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0433\u043e\u0442\u043e\u0432\u044b \u0432\u0437\u044f\u0442\u044c \u0441\u0442\u0443\u0434\u0435\u043d\u0442\u0430. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 1 \u0433\u043e\u0434\u0430.\n                            WeMyIT is\u00a0looking for the Junior Python Developer to\u00a0join the company located in\u00a0Zaporizhzhya (don't\u2026\u2060\n",
+    "timestamp": "2020-09-29T21:42:57.121Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 25,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/2731002/",
+    "title": "\nFull-stack, Python, web developer\n",
+    "company": "ReZet",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 1 \u0433\u043e\u0434\u0430.\n                            Main requirements:  1+ years of\u00a0experience   Strong knowledge of\u00a0Python   OOP, design patterns, Django\u2026\u2060\n",
+    "timestamp": "2020-09-29T21:42:57.254Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 26,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4000912/",
+    "title": "\nPython developer\n",
+    "company": "Computools",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            Computools LLC\u00a0\u2014 \u043c\u0438\u0440\u043e\u0432\u043e\u0439 \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a \u0438\u043d\u043d\u043e\u0432\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u044b\u0445 \u0440\u0435\u0448\u0435\u043d\u0438\u0439. \u041c\u0438\u0441\u0441\u0438\u044f Computools: \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u0438\u043d\u043d\u043e\u0432\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0445\u2026\u2060\n",
+    "timestamp": "2020-09-29T21:42:57.379Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 27,
+  "fields": {
+    "url": "https://rabota.ua//company1709981/vacancy8112101",
+    "title": "  Software Test Automation Engineer (Java/Python)\n ",
+    "company": "CHI Software",
+    "description": " RequirementsAt least 2+ years experience in Manual Software Testing;At least 2+ year experience in AQA (Experience in load testing is a plus);Strong/Middle...\n",
+    "timestamp": "2020-09-29T21:42:57.504Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 28,
+  "fields": {
+    "url": "https://rabota.ua//company8661371/vacancy8042203",
+    "title": "  Systems / Software Architect\n ",
+    "company": "HORISEN AG",
+    "description": " HORISEN is an international software company focused on developing modern cloud-based solutions for telecommunications and mobile marketing. We strongly...\n",
+    "timestamp": "2020-09-29T21:42:57.629Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 29,
+  "fields": {
+    "url": "https://rabota.ua//company3556636/vacancy8145399",
+    "title": "  \u041f\u043e\u043c\u043e\u0449\u043d\u0438\u043a \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442\u0430 c Python (csv, json, API connection)\n ",
+    "company": "\u0411\u0430\u0440\u043e\u043d\u0435\u043d\u043a\u043e \u0424.\u0418., \u0424\u041b\u041f",
+    "description": " \u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f: \u0437\u043d\u0430\u043d\u0438\u0435 Python \u043d\u0430 \u0441\u0440\u0435\u0434\u043d\u0435\u043c \u0443\u0440\u043e\u0432\u043d\u0435, \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e:PandasNumpy Json Csv Request 25-30 \u0447\u0430\u0441\u043e\u0432 \u0440\u0430\u0431\u043e\u0447\u0435\u0433\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0432 \u043d\u0435\u0434\u0435\u043b\u044e (\u0436\u0435\u043b\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u043f\u043e 5-6 \u0447\u0430\u0441 \u0432 \u0434\u0435\u043d\u044c...\n",
+    "timestamp": "2020-09-29T21:42:57.737Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 30,
+  "fields": {
+    "url": "https://rabota.ua//company5164992/vacancy7650844",
+    "title": "  Full-stack Python web developer\n ",
+    "company": "reZet",
+    "description": " Main requirements:1+ years of experienceStrong knowledge of PythonOOP, design patterns, Django (django rest) or FlaskStrong knowledge of Postgres or MySQLGITEnglish...\n",
+    "timestamp": "2020-09-29T21:42:57.846Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 31,
+  "fields": {
+    "url": "https://rabota.ua//company2634999/vacancy8040493",
+    "title": "  Python Developer\n ",
+    "company": "Computools",
+    "description": " Computools LLC - \u043c\u0438\u0440\u043e\u0432\u043e\u0439 \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a \u0438\u043d\u043d\u043e\u0432\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u044b\u0445 \u0440\u0435\u0448\u0435\u043d\u0438\u0439.\u041c\u0438\u0441\u0441\u0438\u044f Computools: \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u0438\u043d\u043d\u043e\u0432\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u044b\u0445 \u0440\u0435\u0448\u0435\u043d\u0438\u0439 \u0434\u043b\u044f \u043f\u0440\u043e\u0446\u0432\u0435\u0442\u0430\u043d\u0438\u044f \u0431\u0438\u0437\u043d\u0435\u0441\u0430...\n",
+    "timestamp": "2020-09-29T21:42:57.954Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 32,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/groupbwt/vacancies/102990/",
+    "title": "\nPython (Scrapy) Developer\u00a0\u0432\u00a0\u00a0GroupBWT\n\u0417\u0430\u043f\u043e\u0440\u043e\u0436\u044c\u0435, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u043e\n",
+    "company": "\u00a0GroupBWT",
+    "description": "\n\t\t\t\t\t\u041c\u044b, GroupBWT\u00a0\u2014 \u0430\u0443\u0442\u0441\u043e\u0440\u0441\u0438\u043d\u0433\u043e\u0432\u0430\u044f\u00a0IT \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u0431\u043e\u043b\u0435\u0435 10\u00a0\u043b\u0435\u0442 \u043f\u043e\u043c\u043e\u0433\u0430\u0435\u0442 \u0441\u0432\u043e\u0438\u043c \u043a\u043b\u0438\u0435\u043d\u0442\u0430\u043c \u043f\u043e\u00a0\u0432\u0441\u0435\u043c\u0443 \u043c\u0438\u0440\u0443 \u0440\u0435\u0430\u043b\u0438\u0437\u043e\u0432\u044b\u0432\u0430\u0442\u044c \u0438\u0445\u00a0\u0438\u0434\u0435\u0438, \u0441\u00a0\u043f\u043e\u043c\u043e\u0449\u044c\u044e \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043d\u044b\u0445 Web \u0440\u0435\u0448\u0435\u043d\u0438\u0439 \u0438\u00a0\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0434\u0430\u043d\u043d\u044b\u0445.\n\t\t\t\t",
+    "timestamp": "2020-09-29T21:42:58.070Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 33,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/rezet/vacancies/94119/",
+    "title": "\nFull-stack Python web developer\u00a0\u0432\u00a0\u00a0reZet\n\u0417\u0430\u043f\u043e\u0440\u043e\u0436\u044c\u0435\n",
+    "company": "\u00a0reZet",
+    "description": "\n\t\t\t\t\t1+\u00a0years of\u00a0experience\nStrong knowledge of\u00a0Python\nOOP, design patterns, Django (django rest) or\u00a0Flask\nStrong knowledge of\u00a0Postgres or\u00a0MySQL\nGIT\nEnglish\u00a0\u2014 (tech documentation)\n\t\t\t\t",
+    "timestamp": "2020-09-29T21:42:58.170Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 34,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/alnicko-development/vacancies/130569/",
+    "title": "\nPython Developer\u00a0\u0432\u00a0\u00a0Alnicko Development\n\u0414\u043d\u0435\u043f\u0440, \u041a\u0440\u0438\u0432\u043e\u0439 \u0420\u043e\u0433, \u041a\u0440\u043e\u043f\u0438\u0432\u043d\u0438\u0446\u043a\u0438\u0439, \u0417\u0430\u043f\u043e\u0440\u043e\u0436\u044c\u0435\n",
+    "company": "\u00a0Alnicko Development",
+    "description": "\n\t\t\t\t\tThe project is\u00a0a\u00a0remote control system based on\u00a0the Z-Wave protocol.\n\t\t\t\t",
+    "timestamp": "2020-09-29T21:42:58.279Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 35,
+  "fields": {
+    "url": "https://djinni.co/jobs/150072-python-developer-django-/",
+    "title": "\nPython developer  (Django)\n",
+    "company": "Flyaps",
+    "description": "\n\u041c\u044b \u0438\u0449\u0435\u043c back-end \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442\u0430,  \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0433\u043e\u0442\u043e\u0432  \u043f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u0438\u0442\u044c\u0441\u044f \u043a \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430 - \u0432\u0435\u0431-\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435  \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0439  \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0438.\n",
+    "timestamp": "2020-09-29T21:42:58.409Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 36,
+  "fields": {
+    "url": "https://djinni.co/jobs/149546-software-test-automation-engineer-java-python/",
+    "title": "\nSoftware Test Automation Engineer (Java/Python)\n",
+    "company": "CHI Software",
+    "description": "\nWe love our work and surrender ourselves to it one hundred percent! Each new project is a challenge that we successfully cope with. The number of projects is growing, and with them our team. And now we need a Software Test Automation Engineer (Java/Python)\n",
+    "timestamp": "2020-09-29T21:42:58.526Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 37,
+  "fields": {
+    "url": "https://djinni.co/jobs/1064-python-developer/",
+    "title": "\nPython developer\n",
+    "company": "Light IT",
+    "description": "\n\u0415\u0441\u043b\u0438 \u0443 \u0442\u0435\u0431\u044f \u0435\u0441\u0442\u044c \u043e\u043f\u044b\u0442 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u043d\u0430 \u044f\u0437\u044b\u043a\u0435 Python, \u0440\u0430\u0431\u043e\u0442\u0430\u043b \u0441 Django, \u0438 \u0438\u0449\u0435\u0448\u044c \u043a\u043e\u043c\u0430\u043d\u0434\u0443 \u0441\u043a\u0438\u043b\u043e\u0432\u044b\u0445 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u043e\u0432 \u0441 \u043a\u043e\u0442\u043e\u0440\u044b\u043c\u0438 \u0431\u0443\u0434\u0435\u0448\u044c \u0440\u043e\u0441\u0442\u0438 \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e - \u0442\u0435\u0431\u0435 \u0442\u043e\u0447\u043d\u043e \u0432 Light IT!\n",
+    "timestamp": "2020-09-29T21:42:58.643Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 38,
+  "fields": {
+    "url": "https://djinni.co/jobs/147832-python-developer/",
+    "title": "\nPython  Developer\n",
+    "company": "Light IT",
+    "description": "\n\u041f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u043c \u0440\u0430\u0431\u043e\u0442\u0443 \u0432 \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u043a\u043e\u043c\u0430\u043d\u0434\u0435 Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u043e\u0432!\r\n\u0412 \u0447\u0435\u043c \u0437\u0430\u043a\u043b\u044e\u0447\u0430\u0435\u0442\u0441\u044f \u043d\u0430\u0448\u0430 \u0434\u0435\u044f\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c? \u042d\u0442\u043e \u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0438\u0434\u0435\u0439 \u0438 \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u0432 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0445 \u0444\u043e\u0440\u043c\u0430\u0442\u043e\u0432 \u0434\u043b\u044f \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 \u0438\u0437 \u0415\u0432\u0440\u043e\u043f\u044b, \u0421\u0428\u0410, \u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0438 \u0438 \u0434\u0440\u0443\u0433\u0438\u0445 \u0443\u0433\u043e\u043b\u043a\u043e\u0432 \u043c\u0438\u0440\u0430!\r\n\r\n\u0411\u0443\u0434\u0435\u043c \u0440\u0430\u0434\u044b \u0443\u0432\u043b\u0435\u0447\u0435\u043d\u043d\u043e\u043c\u0443 \u0441\u0432\u043e\u0438\u043c \u0434\u0435\u043b\u043e\u043c \u043d\u043e\u0432\u043e\u043c\u0443 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0443-\u0434\u0440\u0443\u0433\u0443, \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u0431\u0443\u0434\u0435\u043c \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0442\u044c!\n",
+    "timestamp": "2020-09-29T21:42:58.768Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 39,
+  "fields": {
+    "url": "https://djinni.co/jobs/126879-big-data-engineer/",
+    "title": "\nBig Data Engineer\n",
+    "company": "EPAM Systems",
+    "description": "\nLooking for BigData Engineers (Seniors, middles) to join our Kyiv Big Data Unit EPAM!\n",
+    "timestamp": "2020-09-29T21:42:58.876Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 40,
+  "fields": {
+    "url": "https://djinni.co/jobs/121622-full-stack-python-web-developer/",
+    "title": "\nFull-stack, Python, web developer\n",
+    "company": "reZet",
+    "description": "\nRezet is a close-knit group of professionals who share a set of core values. Ranking high the importance of maintaining a healthy work-life balance, we pursuit keeping an atmosphere of creativity and cooperation at all levels - doing the things we love, and enjoying the things we do.\n",
+    "timestamp": "2020-09-29T21:42:58.985Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 41,
+  "fields": {
+    "url": "https://djinni.co/jobs/146112-qa-automation-engineer-python-/",
+    "title": "\nQA Automation Engineer (Python)\n",
+    "company": "QATestLab",
+    "description": "\nQATestLab \u2014 \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u044b\u0439 \u043f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440 \u0441\u0435\u0440\u0432\u0438\u0441\u0430 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430 \u0438 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u041f\u041e.\r\n\u0424\u0430\u043a\u0442\u044b \u043e \u043d\u0430\u0441:\r\n200+ QA \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u043e\u0432 (\u043c\u0430\u043d\u0443\u0430\u043b\u044c\u0449\u0438\u043a\u0438 \u0438 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0442\u043e\u0440\u044b)\r\n12+ \u043b\u0435\u0442 \u0432 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438\r\n3\u2009000+ \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0445 \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u0432\r\n9 \u043e\u0444\u0438\u0441\u043e\u0432 \u0432 \u0433\u043e\u0440\u043e\u0434\u0430\u0445 \u0423\u043a\u0440\u0430\u0438\u043d\u044b\r\n\u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0422\u0440\u0435\u043d\u0438\u043d\u0433\u043e\u0432\u044b\u0439 \u0446\u0435\u043d\u0442\u0440 \u0441 39\u2009000 \u0441\u043b\u0443\u0448\u0430\u0442\u0435\u043b\u044f\u043c\u0438\n",
+    "timestamp": "2020-09-29T21:42:59.109Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 42,
+  "fields": {
+    "url": "https://djinni.co/jobs/143791-python-developer/",
+    "title": "\nPython developer\n",
+    "company": "GroupBWT",
+    "description": "\n\u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0430\u0435\u043c \u0442\u0435\u0431\u044f \u0432 \u043a\u043e\u043c\u0430\u043d\u0434\u0443 BWT \u043d\u0430 \u043f\u043e\u0437\u0438\u0446\u0438\u044e Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430.\n",
+    "timestamp": "2020-09-29T21:42:59.234Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 43,
+  "fields": {
+    "url": "https://djinni.co/jobs/141424-python-developer-team-lead/",
+    "title": "\nPython Developer Team  Lead\n",
+    "company": "Maxima Labs",
+    "description": "\n\u0418\u0449\u0435\u043c Python Developer Team  Lead \u0432 Product IT \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044e, \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u0442\u0441\u044f \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u043e\u0439 \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u0432, \u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0445 \u0441 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u043e\u0439 \u0438 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u043e\u0439 \u0441\u043f\u0443\u0442\u043d\u0438\u043a\u043e\u0432\u044b\u0445 \u0441\u043d\u0438\u043c\u043a\u043e\u0432 \u0434\u043b\u044f \u0440\u0435\u0448\u0435\u043d\u0438\u044f \u0440\u0435\u0430\u043b\u044c\u043d\u044b\u0445 \u0431\u0438\u0437\u043d\u0435\u0441 \u0437\u0430\u0434\u0430\u0447. \u0413\u043e\u0442\u043e\u0432\u044b \u0440\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u0430 \u0441 \u043e\u043f\u044b\u0442\u043e\u043c \u043d\u0430 \u0431\u0435\u043a\u0435\u043d\u0434\u0435 \u043e\u0442 4 \u043b\u0435\u0442 (\u0438 \u043c\u0438\u043d\u0438\u043c\u0443\u043c \u0433\u043e\u0434 \u043d\u0430 Python)\n",
+    "timestamp": "2020-09-29T21:42:59.359Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 44,
+  "fields": {
+    "url": "https://rabota.ua//company6150846/vacancy7449034",
+    "title": "  Middle Python developer (Remote)\n ",
+    "company": "STARNAVI",
+    "description": " StarNavi is looking for a Middle Python developer to join our friendly team! We expect you to participate in both commercial and open-source projects....\n",
+    "timestamp": "2020-10-14T22:27:12.628Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 45,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/light-it/vacancies/6666/",
+    "title": "\nPython Developer\u00a0\u0432\u00a0\u00a0Light IT\n$1000\u20132500\n\u0417\u0430\u043f\u043e\u0440\u043e\u0436\u044c\u0435, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u043e\n",
+    "company": "\u00a0Light IT",
+    "description": "\n\t\t\t\t\t\u0415\u0441\u043b\u0438 \u0443\u00a0\u0442\u0435\u0431\u044f \u0435\u0441\u0442\u044c \u043e\u043f\u044b\u0442 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u043d\u0430\u00a0\u044f\u0437\u044b\u043a\u0435 Python, \u0440\u0430\u0431\u043e\u0442\u0430\u043b \u0441\u00a0Django, \u0438\u00a0\u0438\u0449\u0435\u0448\u044c \u043a\u043e\u043c\u0430\u043d\u0434\u0443 \u0441\u043a\u0438\u043b\u043e\u0432\u044b\u0445 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u043e\u0432 \u0441\u00a0\u043a\u043e\u0442\u043e\u0440\u044b\u043c\u0438 \u0431\u0443\u0434\u0435\u0448\u044c \u0440\u043e\u0441\u0442\u0438 \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u00a0\u2014 \u0442\u0435\u0431\u0435 \u0442\u043e\u0447\u043d\u043e \u0432\u00a0Light\u00a0IT!.\n\t\t\t\t",
+    "timestamp": "2020-10-14T22:27:12.692Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 46,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/chi-software/vacancies/133971/",
+    "title": "\nSoftware Test Automation Engineer (Java/Python)\u00a0\u0432\u00a0\u00a0CHI Software\n\u0417\u0430\u043f\u043e\u0440\u043e\u0436\u044c\u0435\n",
+    "company": "\u00a0CHI Software",
+    "description": "\n\t\t\t\t\tRequirements\n\u2014\u00a0At\u00a0least 2+\u00a0years experience in\u00a0Manual Software Testing;\n\u2014\u00a0At\u00a0least 2+\u00a0year experience in\u00a0AQA (Experience in\u00a0load testing is\u00a0a\u00a0plus);\n\u2014\u00a0Strong/Middle knowledge of\u00a0Java\u00a0/ Python;\n\u2014\u00a0Strong knowledge of\u00a0software\u00a0QA methodologies, tools and processes;\n\u2014\u00a0Experience...\n\t\t\t\t",
+    "timestamp": "2020-10-14T22:27:12.798Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 47,
+  "fields": {
+    "url": "https://djinni.co/jobs/154011-back-end-python-developer/",
+    "title": "\nBack-end Python Developer\n",
+    "company": "Alnicko Development",
+    "description": "\nProject is an innovative startup from Silicon Valley which is operating in stealth-mode building next-generation recognition of obstacles technology targeted for maneuverable robots deployment.\n",
+    "timestamp": "2020-10-14T22:27:12.911Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 48,
+  "fields": {
+    "url": "https://djinni.co/jobs/97667-python-developer/",
+    "title": "\nPython Developer\n",
+    "company": "Jellyfish.tech",
+    "description": "\nWe are currently looking for developers who want to join our family - long-term participants who are solely responsible for the areas of our code and interact well with other team members.\n",
+    "timestamp": "2020-10-14T22:27:13.015Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 49,
+  "fields": {
+    "url": "https://djinni.co/jobs/133996-middle-python-django-developer/",
+    "title": "\nMiddle Python/Django Developer\n",
+    "company": "DiSOFT",
+    "description": "\n\u0412 \u043a\u043e\u043c\u0430\u043d\u0434\u0443 \u00abDiSOFT\u00bb \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0430\u0435\u043c Python developer.\r\n\u041d\u0435 \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u043c\u0441\u044f \u0443\u0441\u043b\u0443\u0433\u0430\u043c\u0438 \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u0438\u044f \u043a\u043e\u0434\u0430, \u043c\u044b \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u043c \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u044b, \u0432\u043d\u0435\u0434\u0440\u044f\u0435\u043c \u0438 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u043c \u0438\u0445.\n",
+    "timestamp": "2020-10-14T22:27:13.132Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 50,
+  "fields": {
+    "url": "https://djinni.co/jobs/152143-python-back-end-developer/",
+    "title": "\nPython Back-end Developer\n",
+    "company": "Supportech",
+    "description": "\nOne Planet Ops Inc, the leading online marketplace for locally-targeted advertising, is looking for a diligent, hard-working, self-starting Back-end Developer with a desire to help create world-class consumer and B2B web applications. This person will work closely with Product Management and Marketi\n",
+    "timestamp": "2020-10-14T22:27:13.232Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 51,
+  "fields": {
+    "url": "https://djinni.co/jobs/151901-senior-big-data-python-azure-/",
+    "title": "\nSenior Big Data (Python + Azure)\n",
+    "company": "SoftServe",
+    "description": "\nThis position is opened not for a project but for Big Data & Analytics Center of Excellence.\n",
+    "timestamp": "2020-10-14T22:27:13.315Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 52,
+  "fields": {
+    "url": "https://djinni.co/jobs/151321-back-end-developer-python-/",
+    "title": "\nBack-end developer (Python)\n",
+    "company": "Flyaps",
+    "description": "\n\u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0430\u0435\u043c \u0432 \u043a\u043e\u043c\u0430\u043d\u0434\u0443 back-end \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442\u0430,  \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0433\u043e\u0442\u043e\u0432  \u043f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u0438\u0442\u044c\u0441\u044f \u043a \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430 - \u0432\u0435\u0431-\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435  \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0439  \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0438.\n",
+    "timestamp": "2020-10-14T22:27:13.406Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 53,
+  "fields": {
+    "url": "https://djinni.co/jobs/147132-python-developer/",
+    "title": "\nPython Developer\n",
+    "company": "CHI Software",
+    "description": "\nCHI Software looking for Python Developer\n",
+    "timestamp": "2020-10-14T22:27:13.512Z",
+    "id_city": 2,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 54,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/2857290/",
+    "title": "\nJunior Quantitative Developer (Python)\n",
+    "company": "Applied Alpha",
+    "description": "\n            \u041d\u0435\u043f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430, \u0433\u043e\u0442\u043e\u0432\u044b \u0432\u0437\u044f\u0442\u044c \u0441\u0442\u0443\u0434\u0435\u043d\u0442\u0430. \u0412\u044b\u0441\u0448\u0435\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435.\n                            \u0418\u0449\u0435\u043c \u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a\u0430 \u043d\u0430\u00a0\u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u044b \u0432\u00a0\u043e\u0431\u043b\u0430\u0441\u0442\u0438 \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u043e\u0433\u043e \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f / \u0430\u043b\u0433\u043e\u0442\u0440\u0435\u0439\u0434\u0438\u043d\u0433\u0430. \u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f:\u2026\u2060\n",
+    "timestamp": "2020-10-15T07:54:52.643Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 55,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3418055/",
+    "title": "\nSenior Python Developer\n",
+    "company": "KeyUA Software",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            \u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0435 \u043d\u0430\u0432\u044b\u043a\u0438  3+ years experience in\u00a0Python   Understanding of\u00a0the HTTP protocol and RESTful APIs\u2026\u2060\n",
+    "timestamp": "2020-10-15T07:54:52.757Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 56,
+  "fields": {
+    "url": "https://djinni.co/jobs/155267-lead-senior-python-developer/",
+    "title": "\nLead/Senior Python developer\n",
+    "company": "Artkai",
+    "description": "\nThe goal of the project is to develop semi-smart watch (a smart watch with limited features) for children. It will support phone calls, SMS, GPS location, and other capabilities. The watch will not provide any games or toy-like features.\n",
+    "timestamp": "2020-10-15T07:54:52.882Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 57,
+  "fields": {
+    "url": "https://djinni.co/jobs/155264-senior-big-data-developer-automotive-domain-/",
+    "title": "\nSenior Big Data Developer (Automotive Domain)\n",
+    "company": "Sigma Software",
+    "description": "\nLooking for a Big Data Engineer to join a fast-moving development team and work on a Business Process Management platform.\n",
+    "timestamp": "2020-10-15T07:54:52.974Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 58,
+  "fields": {
+    "url": "https://djinni.co/jobs/154924-python-developer/",
+    "title": "\nPython Developer\n",
+    "company": "Andersen Lab",
+    "description": "\n\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0430\u044f IT-\u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 Andersen (andersenlab.com/about-us) \u0441\u0435\u0439\u0447\u0430\u0441 \u0432 \u043f\u043e\u0438\u0441\u043a\u0430\u0445 \u043a\u0440\u0443\u0442\u043e\u0433\u043e Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430 \u0432 \u043d\u0430\u0448\u0443 \u043a\u043e\u043c\u0430\u043d\u0434\u0443. \r\nPython \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a \u043d\u0430 \u0434\u0430\u043d\u043d\u044b\u0439 \u043c\u043e\u043c\u0435\u043d\u0442 \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043d\u0430 \u043f\u0440\u043e\u0435\u043a\u0442 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438  \u043a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u0432\u0435\u0431-\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u0434\u043b\u044f \u0430\u043d\u0430\u043b\u0438\u0437\u0430 \u0431\u043e\u043b\u044c\u0448\u0438\u0445 \u043c\u0430\u0441\u0441\u0438\u0432\u043e\u0432 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0439 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438.\n",
+    "timestamp": "2020-10-15T07:54:53.091Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 59,
+  "fields": {
+    "url": "https://djinni.co/jobs/154554-senior-python-engineer/",
+    "title": "\nSenior Python Engineer\n",
+    "company": "EPAM",
+    "description": "\nOur client is a San Francisco based technology company that specializes in capitalization table management and valuation software\n",
+    "timestamp": "2020-10-15T07:54:53.207Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 60,
+  "fields": {
+    "url": "https://djinni.co/jobs/142571-senior-front-end-full-stack-developer/",
+    "title": "\nSenior Front-End/Full Stack Developer\n",
+    "company": "GlobalLogic",
+    "description": "\nPosition: Senior Front-End/Full Stack Developer\r\nCompany: GlobalLogic\r\nLocation: Kyiv\r\nProject: Data aggregation center.\n",
+    "timestamp": "2020-10-15T07:54:53.324Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 61,
+  "fields": {
+    "url": "https://djinni.co/jobs/154385-devops-engineer-real-time-data-analysis-/",
+    "title": "\nDevOps Engineer (Real-Time Data Analysis)\n",
+    "company": "Sigma Software",
+    "description": "\nYou are an experienced DevOps Engineer, who knows how to create a secure and high-load infrastructure? \r\nYou use most of cloud services and feel ambitious to improve existing solutions?\r\nIf yes, then this is your chance to become a part of a unique solution for Data Analysis!\n",
+    "timestamp": "2020-10-15T07:54:53.449Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 62,
+  "fields": {
+    "url": "https://djinni.co/jobs/143348-senior-python-developer-for-tradecore/",
+    "title": "\nSenior Python Developer for Tradecore\n",
+    "company": "Daxx",
+    "description": "\nTradeCore is a platform-as-a-service provider that enables fintech to build next-generation\r\nbanking and investment products.\n",
+    "timestamp": "2020-10-15T07:54:53.550Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 63,
+  "fields": {
+    "url": "https://djinni.co/jobs/153846-senior-python-developer/",
+    "title": "\nSenior Python Developer\n",
+    "company": "Luxoft",
+    "description": "\nWe are in a need to strengthen our backend development, and due to the fact we are utilizing AWS services heavily, a perfect candidate would have AWS and Python knowledge:\n",
+    "timestamp": "2020-10-15T07:54:53.666Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 64,
+  "fields": {
+    "url": "https://djinni.co/jobs/153459-senior-python-developer-for-stoic-strategies/",
+    "title": "\nSenior Python Developer for Stoic Strategies\n",
+    "company": "Daxx",
+    "description": "\nStoic Strategies has spent the last year building one of the most sophisticated trading platforms in the cryptocurrency industry, capable of running and optimizing a portfolio of trading algorithms.\n",
+    "timestamp": "2020-10-15T07:54:53.782Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 65,
+  "fields": {
+    "url": "https://djinni.co/jobs/152785-machine-learning-engineer/",
+    "title": "\nMachine Learning Engineer\n",
+    "company": "GlobalLogic",
+    "description": "\nLooking for Machine Learning Engineer to join GlobalLogic company.\n",
+    "timestamp": "2020-10-15T07:54:53.899Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 66,
+  "fields": {
+    "url": "https://djinni.co/jobs/152699-python-ml/",
+    "title": "\nPython ML\n",
+    "company": "Andersen",
+    "description": "\n\u0421\u0435\u0439\u0447\u0430\u0441 \u0443 \u043d\u0430\u0441 \u043e\u0442\u043a\u0440\u044b\u0442\u0430 \u043f\u043e\u0437\u0438\u0446\u0438\u044f \u0434\u043b\u044f Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430 (Machine learning) \u0432 \u043d\u0430\u0448\u0443 \u043a\u043e\u043c\u0430\u043d\u0434\u0443\n",
+    "timestamp": "2020-10-15T07:54:54.015Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 67,
+  "fields": {
+    "url": "https://djinni.co/jobs/152579-python-application-architect/",
+    "title": "\nPython application architect\n",
+    "company": "Yalantis",
+    "description": "\nYalantis \u0432 \u043f\u043e\u0438\u0441\u043a\u0435 Python application architect \u0441 \u043e\u043f\u044b\u0442\u043e\u043c \u0432 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u043e\u0442 5 \u043b\u0435\u0442 \u0438 \u043e\u043f\u044b\u0442\u043e\u043c \u043d\u0430 \u0430\u043d\u0430\u043b\u043e\u0433\u0438\u0447\u043d\u043e\u0439 \u043f\u043e\u0437\u0438\u0446\u0438\u0438 \u043e\u0442 \u0433\u043e\u0434\u0430.\n",
+    "timestamp": "2020-10-15T07:54:54.099Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 68,
+  "fields": {
+    "url": "https://djinni.co/jobs/152447-application-architect/",
+    "title": "\nApplication Architect\n",
+    "company": "Yalantis",
+    "description": "\nApplication Architect \u0441 \u043e\u043f\u044b\u0442\u043e\u043c \u043d\u0430 \u0430\u043d\u0430\u043b\u043e\u0433\u0438\u0447\u043d\u043e\u0439 \u043f\u043e\u0437\u0438\u0446\u0438\u0438 \u0438 \u0441\u043e \u0437\u043d\u0430\u043d\u0438\u0435\u043c \u043e\u0434\u043d\u043e\u0439 \u0438\u0437 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439: Go (Golang), Node.js, Ruby, Java, Python\n",
+    "timestamp": "2020-10-15T07:54:54.190Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 69,
+  "fields": {
+    "url": "https://djinni.co/jobs/152380-senior-python-developer/",
+    "title": "\nSenior Python Developer\n",
+    "company": "Luxoft",
+    "description": "\nWe are in a need to strengthen our backend development, and due to the fact we are utilizing AWS services heavily, a perfect candidate would have AWS and Python knowledge:\r\n\r\nThe main backend technologies are:\r\nAWS Lambdas written in Python\r\nAWS AppSync (GraphQL)\r\nAWS DynamoDB\n",
+    "timestamp": "2020-10-15T07:54:54.299Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 70,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/health-joy/vacancies/128389/?from=list_hot",
+    "title": "\nSenior Back-End Engineer\u00a0\u0432\u00a0\u00a0HealthJoy\n\u043e\u0442\u00a0$3500\n\u041a\u0438\u0435\u0432, \u0414\u043d\u0435\u043f\u0440\n",
+    "company": "\u00a0HealthJoy",
+    "description": "\n\t\t\t\t\tCome for the mission. Stay for the experience.\nLet\u2019s keep things simple: we\u00a0are an\u00a0unbelievably talented, hard-working, and compassionate team driving towards a\u00a0mission that impacts a\u00a0huge amount of\u00a0people who use Healthcare benefits in\u00a0the\u00a0US.\n\t\t\t\t",
+    "timestamp": "2020-10-15T07:54:54.399Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 71,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/comparusua/vacancies/134914/",
+    "title": "\nMachine Learning Engineer\u00a0\u0432\u00a0\u00a0COMPARUS.UA\n\u0414\u043d\u0435\u043f\u0440\n",
+    "company": "\u00a0COMPARUS.UA",
+    "description": "\n\t\t\t\t\tProject:\n\nArtificial intelligence: text document recognition and document classification based on\u00a0machine learning and CFS platform\n\nCustomer: representatives of\u00a0German financial branch\n\nJob Overview: Developing and testing complex machine learning pipelines\n\t\t\t\t",
+    "timestamp": "2020-10-15T07:54:54.507Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 72,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/daxx-group/vacancies/131011/",
+    "title": "\nSenior Python Developer for Tradecore\u00a0\u0432\u00a0\u00a0Daxx\n\u041a\u0438\u0435\u0432, \u0425\u0430\u0440\u044c\u043a\u043e\u0432, \u041b\u044c\u0432\u043e\u0432, \u0414\u043d\u0435\u043f\u0440\n",
+    "company": "\u00a0Daxx",
+    "description": "\n\t\t\t\t\tTradeCore is\u00a0a\u00a0platform-as-a-service provider that enables fintech to\u00a0build next-generation\nbanking and investment products.\n\t\t\t\t",
+    "timestamp": "2020-10-15T07:54:54.598Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 73,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/go-wombat-team/vacancies/121032/",
+    "title": "\nPython Web Developer\u00a0\u0432\u00a0\u00a0Go Wombat\n$1000\u20132500\n\u0414\u043d\u0435\u043f\u0440\n",
+    "company": "\u00a0Go Wombat",
+    "description": "\n\t\t\t\t\t\u041d\u0430\u00a0\u0442\u0435\u043a\u0443\u0449\u0438\u0439 \u043c\u043e\u043c\u0435\u043d\u0442 \u043d\u0430\u0448\u0438 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u044d\u0442\u043e \u0442\u0443\u0440\u0438\u0437\u043c \u0438\u00a0AdTech. \u0411\u043e\u043b\u044c\u0448\u0438\u043d\u0441\u0442\u0432\u043e \u043d\u0430\u0448\u0438\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 \u043d\u0430\u0445\u043e\u0434\u044f\u0442\u0441\u044f \u0432\u00a0\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u0438, \u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u0430\u0445 \u0438\u00a0\u0414\u0430\u043d\u0438\u0438.\n\t\t\t\t",
+    "timestamp": "2020-10-15T07:54:54.691Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 74,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/daxx-group/vacancies/130513/",
+    "title": "\nSenior Python Developer for Stoic Strategies\u00a0\u0432\u00a0\u00a0Daxx\n\u041a\u0438\u0435\u0432, \u0425\u0430\u0440\u044c\u043a\u043e\u0432, \u0414\u043d\u0435\u043f\u0440\n",
+    "company": "\u00a0Daxx",
+    "description": "\n\t\t\t\t\tStoic Strategies has spent the last year building one of\u00a0the most sophisticated trading platforms in\u00a0the cryptocurrency industry, capable of\u00a0running and optimizing a\u00a0portfolio of\u00a0trading algorithms.\n\nWe\u00a0invest using both algorithmic and discretionary trading.\n\t\t\t\t",
+    "timestamp": "2020-10-15T07:54:54.782Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 75,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/lanars/vacancies/133915/",
+    "title": "\nQt/Python Engineer\u00a0\u0432\u00a0\u00a0LANARS\n\u0414\u043d\u0435\u043f\u0440\n",
+    "company": "\u00a0LANARS",
+    "description": "\n\t\t\t\t\tGood knowledge of\u00a0computer science and computing theory:\nOOP, SOLID, TDD\nAlgorithms and data structures\nDesign patterns\nUnderstanding of\u00a0network interactions and protocols, conventions (REST), authentication and authorization standards and practices (oAuth, JWT)\nGood knowledge...\n\t\t\t\t",
+    "timestamp": "2020-10-15T07:54:54.900Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 76,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/epam-systems/vacancies/122863/",
+    "title": "\nPython Architect [Kyiv, Kharkiv, Dnipro]\u00a0\u0432\u00a0\u00a0EPAM\n\u041a\u0438\u0435\u0432, \u0425\u0430\u0440\u044c\u043a\u043e\u0432, \u0414\u043d\u0435\u043f\u0440\n",
+    "company": "\u00a0EPAM",
+    "description": "\n\t\t\t\t\tEPAM Ukraine invites a\u00a0Python expert:\n\nOur client is\u00a0a\u00a0global leader in\u00a0information, analytics and solutions for the major industries and markets that drive economies worldwide. Headquartered in\u00a0London, the client serves more than 50,000 key customers in\u00a0over 140\u00a0countries.\n\t\t\t\t",
+    "timestamp": "2020-10-15T07:54:55.024Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 77,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/ioix-ukraine/vacancies/10911/",
+    "title": "\nQA\u00a0and automated testing Engineer (python)\u00a0\u0432\u00a0IOIX Ukraine\n\u0434\u043e\u00a0$1300\n\u0414\u043d\u0435\u043f\u0440, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u043e\n",
+    "company": "IOIX Ukraine",
+    "description": "\n\t\t\t\t\tNews analysis systems and report generation. Full circle: crawling, scraping, processing, reporting.\n\t\t\t\t",
+    "timestamp": "2020-10-15T07:54:55.132Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 78,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/raketa/vacancies/133448/",
+    "title": "\nSenior Python Developer\u00a0\u0432\u00a0\u00a0Raketa\n\u041a\u0438\u0435\u0432, \u0414\u043d\u0435\u043f\u0440\n",
+    "company": "\u00a0Raketa",
+    "description": "\n\t\t\t\t\t\u0418\u0449\u0435\u043c \u0432\u00a0Core Team \u043e\u043f\u044b\u0442\u043d\u043e\u0433\u043e Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430. \u0411\u0443\u0434\u0435\u0442 \u0432\u043c\u0435\u0441\u0442\u0435 \u0441\u00a0\u043a\u043e\u043c\u0430\u043d\u0434\u043e\u0439 \u0437\u0430\u043d\u0438\u043c\u0430\u0442\u0441\u044f \u043e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u0435\u0439 \u043b\u043e\u0433\u0438\u0441\u0442\u0438\u043a\u0438 \u0441\u0435\u0440\u0432\u0438\u0441\u0430 \u0441\u00a0\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435\u043c ML.\n\u0412\u00a0\u043a\u043e\u043c\u0430\u043d\u0434\u0443 \u0432\u0445\u043e\u0434\u044f\u0442 PO, DM, Ruby Dev, Data Scientist, QA\u00a0\u0438\u00a0\u043c\u044b\u00a0\u0432\u00a0\u043f\u043e\u0438\u0441\u043a\u0430\u0445 Python Dev. \u0417\u0430\u0434\u0430\u0447\u0438 \u0431\u0443\u0434\u0443\u0442 \u043e\u0447\u0435\u043d\u044c \u043d\u0435\u00a0\u0442\u0440\u0438\u0432\u0438\u0430\u043b\u044c\u043d\u044b\u043c\u0438 \u0438\u00a0\u043d\u0435\u00a0\u043f\u0440\u043e\u0441\u0442\u044b\u043c\u0438.\n\t\t\t\t",
+    "timestamp": "2020-10-15T07:54:55.241Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 79,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/yalantis/vacancies/132870/",
+    "title": "\nPython application architect\u00a0\u0432\u00a0\u00a0Yalantis\n\u0414\u043d\u0435\u043f\u0440\n",
+    "company": "\u00a0Yalantis",
+    "description": "\n\t\t\t\t\tWe\u00a0are proud to\u00a0work with many great businesses around the globe. And now we\u00a0are looking for an\u00a0experienced architect with more than five years of\u00a0experience in\u00a0a\u00a0similar position.\n\t\t\t\t",
+    "timestamp": "2020-10-15T07:54:55.341Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 80,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/keyua/vacancies/90671/",
+    "title": "\nSenior Python Developer\u00a0\u0432\u00a0\u00a0KeyUA\n\u0414\u043d\u0435\u043f\u0440\n",
+    "company": "\u00a0KeyUA",
+    "description": "\n\t\t\t\t\tWe\u00a0are currently expanding our Python team. If\u00a0you strive to\u00a0be\u00a0the best at\u00a0what you do\u00a0and have a\u00a0passion in\u00a0development work\u00a0\u2014 then perhaps the next step in\u00a0your professional development is\u00a0a\u00a0job with KeyUA as\u00a0a\u00a0Back End Python Developer!\nSend your\u00a0CV (hiring@keyua.org...\n\t\t\t\t",
+    "timestamp": "2020-10-15T07:54:55.457Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 81,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/techery/vacancies/132544/",
+    "title": "\nPython Engineer\u00a0\u0432\u00a0\u00a0Techery\n$2000\u20134000\n\u041a\u0438\u0435\u0432, \u0414\u043d\u0435\u043f\u0440\n",
+    "company": "\u00a0Techery",
+    "description": "\n\t\t\t\t\tWe\u00a0are Techery. We\u00a0help businesses to\u00a0drive corporate innovation using modern technologies. We\u00a0are engaged in\u00a0consulting and product development\u00a0\u2014 helping our customers turn ideas into complete solutions. And by\u00a0the way we\u00a0have a\u00a0few in-house products of\u00a0our own.\n\t\t\t\t",
+    "timestamp": "2020-10-15T07:54:55.557Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 82,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/isi-technology/vacancies/91620/",
+    "title": "\nMiddle+/Senior Python developer\u00a0\u0432\u00a0iSi Technology\n\u0414\u043d\u0435\u043f\u0440\n",
+    "company": "iSi Technology",
+    "description": "\n\t\t\t\t\t\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f iSi technologies \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u0442\u0441\u044f \u043f\u043e\u043b\u043d\u043e\u0439 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u0435\u0439 \u0431\u0438\u0437\u043d\u0435\u0441\u0430 \u0432\u00a0\u0441\u0444\u0435\u0440\u0435 NEMT (non-emergency medical transportation).\n\t\t\t\t",
+    "timestamp": "2020-10-15T07:54:55.658Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 83,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/supportech-inc/vacancies/80467/",
+    "title": "\nPython Back-end Developer\u00a0\u0432\u00a0\u00a0Supportech Inc.\n\u0414\u043d\u0435\u043f\u0440\n",
+    "company": "\u00a0Supportech Inc.",
+    "description": "\n\t\t\t\t\tOne Planet Ops Inc, the leading online marketplace for locally-targeted advertising, is\u00a0looking for a\u00a0diligent, hard-working, self-starting Back-end Developer with a\u00a0desire to\u00a0help create world-class consumer and B2B web applications.\n\t\t\t\t",
+    "timestamp": "2020-10-15T07:54:55.766Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 84,
+  "fields": {
+    "url": "https://rabota.ua//company511842/vacancy7696026",
+    "title": "  Data Scientist (Machine Learning Engineer)\n ",
+    "company": "EVA - \u043b\u0438\u043d\u0438\u044f \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u043e\u0432",
+    "description": " \u041d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 Data Science (IT \u0434\u0435\u043f\u0430\u0440\u0442\u0430\u043c\u0435\u043d\u0442) \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0430\u0435\u0442 \u0432 \u043a\u043e\u043c\u0430\u043d\u0434\u0443 \u043e\u043f\u044b\u0442\u043d\u043e\u0433\u043e \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u0430 \u0432 \u043c\u0430\u0448\u0438\u043d\u043d\u043e\u043c \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0438 \u043d\u0430 Python, \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0433\u043e \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u044c \u043e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u044f...\n",
+    "timestamp": "2020-10-15T07:54:55.865Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 85,
+  "fields": {
+    "url": "https://rabota.ua//company203681/vacancy7986908",
+    "title": "  C\u043f\u0435\u0446\u0456\u0430\u043b\u0456\u0441\u0442 \u0414\u0435\u043f\u0430\u0440\u0442\u0430\u043c\u0435\u043d\u0442\u0443 \u043e\u043f\u0435\u0440\u0430\u0446\u0456\u0439\u043d\u043e\u0457 \u0431\u0435\u0437\u043f\u0435\u043a\u0438\n ",
+    "company": "\u041f\u0440\u0438\u0432\u0430\u0442\u0411\u0430\u043d\u043a",
+    "description": " \u041f\u0440\u0438\u0432\u0430\u0442\u0411\u0430\u043d\u043a - \u0454 \u043d\u0430\u0439\u0431\u0456\u043b\u044c\u0448\u0438\u043c \u0431\u0430\u043d\u043a\u043e\u043c \u0423\u043a\u0440\u0430\u0457\u043d\u0438 \u0442\u0430 \u043e\u0434\u043d\u0438\u043c \u0437 \u043d\u0430\u0439\u0431\u0456\u043b\u044c\u0448 \u0456\u043d\u043d\u043e\u0432\u0430\u0446\u0456\u0439\u043d\u0438\u0445 \u0431\u0430\u043d\u043a\u0456\u0432 \u0441\u0432\u0456\u0442\u0443. \u0417\u0430\u0439\u043c\u0430\u0454 \u043b\u0456\u0434\u0443\u044e\u0447\u0456 \u043f\u043e\u0437\u0438\u0446\u0456\u0457 \u0437\u0430 \u0432\u0441\u0456\u043c\u0430 \u0444\u0456\u043d\u0430\u043d\u0441\u043e\u0432\u0438\u043c\u0438 \u043f\u043e\u043a\u0430\u0437\u043d\u0438\u043a\u0430\u043c\u0438 \u0432 \u0433\u0430\u043b\u0443\u0437\u0456...\n",
+    "timestamp": "2020-10-15T07:54:55.974Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 86,
+  "fields": {
+    "url": "https://rabota.ua//company7128985/vacancy8174971",
+    "title": "  Python developer\n ",
+    "company": "Alnicko Dev.",
+    "description": " \u0412\u0430\u043a\u0430\u043d\u0441\u0438\u044f \u0434\u043b\u044f \u0441\u043e\u0438\u0441\u043a\u0430\u0442\u0435\u043b\u0435\u0439 \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043d\u0430\u043c\u0435\u0440\u0435\u043d\u044b \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0442\u044c\u0441\u044f \u043a\u0430\u043a python-\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0438, \u0441\u043e\u0437\u0434\u0430\u0432\u0430\u0442\u044c \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u041b\u0438\u043d\u0443\u043a\u0441 \u0441\u0431\u043e\u0440\u043a\u0438 \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043f\u043e\u0434 \u044f\u0434\u0440\u043e (kernel)....\n",
+    "timestamp": "2020-10-15T07:54:56.082Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 87,
+  "fields": {
+    "url": "https://rabota.ua//company511842/vacancy7935149",
+    "title": "  Middle Python developer\n ",
+    "company": "EVA - \u043b\u0438\u043d\u0438\u044f \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u043e\u0432",
+    "description": " \u0417\u0430\u0434\u0430\u0447\u0438\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439 \u0434\u043b\u044f \u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b, \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0410\\\u0411 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f,\u0438\u043d\u0442\u0435\u0440\u043f\u0440\u0435\u0442\u0430\u0446\u0438\u044f \u0438 \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0440\u0430\u0431\u043e\u0442\u044b ML \u043c\u043e\u0434\u0435\u043b\u0435\u0439,\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u043f\u0440\u043e\u0442\u043e\u0442\u0438\u043f\u043e\u0432 \u0440\u0435\u0448\u0435\u043d\u0438\u0439....\n",
+    "timestamp": "2020-10-15T07:54:56.190Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 88,
+  "fields": {
+    "url": "https://rabota.ua//company203681/vacancy8042481",
+    "title": "  Erlang Developer\n ",
+    "company": "\u041f\u0440\u0438\u0432\u0430\u0442\u0411\u0430\u043d\u043a",
+    "description": " \u041f\u0440\u0438\u0432\u0430\u0442\u0411\u0430\u043d\u043a - \u0454 \u043d\u0430\u0439\u0431\u0456\u043b\u044c\u0448\u0438\u043c \u0431\u0430\u043d\u043a\u043e\u043c \u0423\u043a\u0440\u0430\u0457\u043d\u0438 \u0442\u0430 \u043e\u0434\u043d\u0438\u043c \u0437 \u043d\u0430\u0439\u0431\u0456\u043b\u044c\u0448 \u0456\u043d\u043d\u043e\u0432\u0430\u0446\u0456\u0439\u043d\u0438\u0445 \u0431\u0430\u043d\u043a\u0456\u0432 \u0441\u0432\u0456\u0442\u0443. \u0417\u0430\u0439\u043c\u0430\u0454 \u043b\u0456\u0434\u0443\u044e\u0447\u0456 \u043f\u043e\u0437\u0438\u0446\u0456\u0457 \u0437\u0430 \u0432\u0441\u0456\u043c\u0430 \u0444\u0456\u043d\u0430\u043d\u0441\u043e\u0432\u0438\u043c\u0438 \u043f\u043e\u043a\u0430\u0437\u043d\u0438\u043a\u0430\u043c\u0438 \u0432 \u0433\u0430\u043b\u0443\u0437\u0456...\n",
+    "timestamp": "2020-10-15T07:54:56.282Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.vacancy",
+  "pk": 89,
+  "fields": {
+    "url": "https://rabota.ua//company1693736/vacancy8163790",
+    "title": "  Machine Learning Engineer\n ",
+    "company": "SOLVVE ",
+    "description": " We are looking for a Machine Learning engineer to join our Dnipro team on a full-time basis. About the project Computer Vision (object/instance detection/segmentation,...\n",
+    "timestamp": "2020-10-15T07:54:56.382Z",
+    "id_city": 3,
+    "id_language": 1
+  }
+},
+{
+  "model": "scrap.url",
+  "pk": 1,
+  "fields": {
+    "id_city": 2,
+    "id_language": 1,
+    "url_data": "{\"work\": \"https://www.work.ua/ru/jobs-zaporizhzhya-python\", \"rabota\": \"https://rabota.ua/zapros/python/\\u0437\\u0430\\u043f\\u043e\\u0440\\u043e\\u0436\\u044c\\u0435\", \"dou\": \"https://jobs.dou.ua/vacancies/?category=Python&search=\\u0417\\u0430\\u043f\\u043e\\u0440\\u043e\\u0436\\u044c\\u0435\", \"djinni\": \"https://djinni.co/jobs/keyword-python/zaporizhzhya\"}"
+  }
+},
+{
+  "model": "scrap.url",
+  "pk": 2,
+  "fields": {
+    "id_city": 3,
+    "id_language": 1,
+    "url_data": "{\"work\": \"https://www.work.ua/ru/jobs-dnipro-python/\", \"rabota\": \"https://rabota.ua/zapros/python/\\u0434\\u043d\\u0435\\u043f\\u0440\\u043e\\u043f\\u0435\\u0442\\u0440\\u043e\\u0432\\u0441\\u043a\", \"dou\": \"https://jobs.dou.ua/vacancies/?category=Python&search=\\u0414\\u043d\\u0435\\u043f\\u0440\", \"djinni\": \"https://djinni.co/jobs/keyword-python/dnipro\"}"
+  }
+}
+]
