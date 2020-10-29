@@ -65,7 +65,7 @@ def rabota_ua(url, id_city=None, id_language=None):
                     for tr in tr_list:
                         div = tr.find('div', attrs={'class': 'card-body'})
                         if div:
-                            title = div.find('p', attrs={'class': 'card-title'})
+                            title = div.find('h2', attrs={'class': 'card-title'})
                             href = title.a['href']
                             content = div.find('div', attrs={'class': 'card-description'}).text
                             company = 'No name'
