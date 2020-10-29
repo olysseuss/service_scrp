@@ -33,7 +33,7 @@ if users_dict:
     for pair in users_dict.keys():
         params['id_city_id__in'].append(pair[0])
         params['id_language_id__in'].append(pair[1])
-    qs = Vacancy.objects.filter(**params, timestamp=today).values()
+    qs = Vacancy.objects.filter(**params, timestamp__year=today.year, timestamp__month=today.month, timestamp__day=today.day).values()
     vacancies = {}
     for i in qs:
         vacancies.setdefault((i['id_city_id'], i['id_language_id']), [])
