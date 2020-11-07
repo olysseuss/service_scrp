@@ -21,14 +21,14 @@
                 <h5 class="card-title">{{obj.title}}</h5>
                 <p class="card-text">{{obj.description}}</p>
                 <p>{{obj.timestamp|date:"d.m.Y"}}</p>
-                <a href="{{obj.url}}" class="btn btn-primary">Go to the site</a>
+                <a href="{{obj.url}}" class="btn btn-primary" target="_blank">Перейти на сайт</a>
             </div>
         </div>
     {% endfor %}
     <div class="row">
         <div class="col">
-            <nav aria-label="Page navigation example">
-              <ul class="pagination">
+            <nav aria-label="Page navigation">
+              <ul class="pagination d-flex flex-wrap"><!-- flex-wrap - wrapping items in a container-->
                   {% if object_list.has_previous %}
                     <li class="page-item">
                       <a class="page-link" href="?city={{city}}&language={{language}}&page=1" aria-label="Previous">
